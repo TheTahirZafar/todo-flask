@@ -4,8 +4,6 @@ from pymongo import MongoClient
 from bson.objectid import ObjectId
 from werkzeug.security import generate_password_hash, check_password_hash
 
-#TEST 
-
 app = Flask(__name__)
 
 # Create client and db
